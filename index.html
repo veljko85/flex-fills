@@ -40,13 +40,15 @@
         }
 
         .hero-background-logos {
-            background-image: url("logo.png");
+            /* background-image: url("logo.png");
             background-size: cover;
-            background-position: center;
+            background-position: center; */
             /* width: 10vw;
             height: 2.5vw; */
-            width: 2vw;
-            height: 2vw;
+            border: 1px solid #424242;
+            border-radius: 10px;
+            width: 3vw;
+            height: 3vw;
             position: absolute;
             z-index: 3;
             filter: blur(4px);
@@ -56,62 +58,116 @@
 
         .hero-background-logos:nth-of-type(1) {
             animation-delay: 1s;
-            top: 10vh;
+            top: 20vh;
             left: 20vw;
         }
 
         .hero-background-logos:nth-of-type(2) {
-            animation-delay: 5s;
-            top: 60vh;
-            left: 30vw;
+            animation-delay: 1s;
+            top: 30vh;
+            left: 20vw;
         }
 
         .hero-background-logos:nth-of-type(3) {
-            animation-delay: 10s;
+            animation-delay: 1s;
             top: 30vh;
             left: 40vw;
         }
 
         .hero-background-logos:nth-of-type(4) {
-            animation-delay: 15s;
+            animation-delay: 5s;
             top: 20vh;
             left: 50vw;
         }
 
         .hero-background-logos:nth-of-type(5) {
+            animation-delay: 5s;
+            top: 70vh;
+            left: 20vw;
+        }
+
+        .hero-background-logos:nth-of-type(6) {
+            animation-delay: 5s;
+            top: 70vh;
+            left: 30vw;
+        }
+
+        .hero-background-logos:nth-of-type(7) {
+            animation-delay: 10s;
+            top: 70vh;
+            left: 40vw;
+        }
+
+        .hero-background-logos:nth-of-type(8) {
+            animation-delay: 10s;
+            top: 70vh;
+            left: 60vw;
+        }
+
+        .hero-background-logos:nth-of-type(9) {
+            animation-delay: 10s;
+            top: 70vh;
+            left: 70vw;
+        }
+
+        .hero-background-logos:nth-of-type(10) {
+            animation-delay: 15s;
+            top: 20vh;
+            left: 70vw;
+        }
+
+        .hero-background-logos:nth-of-type(11) {
+            animation-delay: 15s;
+            top: 70vh;
+            left: 50vw;
+        }
+
+        .hero-background-logos:nth-of-type(12) {
+            animation-delay: 15s;
+            top: 20vh;
+            left: 30vw;
+        }
+
+        .hero-background-logos:nth-of-type(13) {
             animation-delay: 20s;
+            top: 30vh;
+            left: 65vw;
+        }
+
+        .hero-background-logos:nth-of-type(14) {
+            animation-delay: 20s;
+            top: 20vh;
+            left: 40vw;
+        }
+
+        .hero-background-logos:nth-of-type(15) {
+            animation-delay: 20s;
+            top: 80vh;
+            left: 40vw;
+        }
+
+        .hero-background-logos:nth-of-type(16) {
+            animation-delay: 25s;
+            top: 80vh;
+            left: 20vw;
+        }
+
+        .hero-background-logos:nth-of-type(17) {
+            animation-delay: 25s;
             top: 80vh;
             left: 60vw;
         }
 
-        .hero-background-logos:nth-of-type(6) {
+        .hero-background-logos:nth-of-type(18) {
             animation-delay: 25s;
-            top: 50vh;
-            left: 70vw;
+            top: 20vh;
+            left: 60vw;
         }
 
-        .hero-background-logos:nth-of-type(7) {
+        .hero-background-logos:nth-of-type(19) {
             animation-delay: 30s;
             top: 30vh;
-            left: 90vw;
-        }
-
-        .hero-background-logos:nth-of-type(8) {
-            animation-delay: 35s;
-            top: 40vh;
-            left: 10vw;
-        }
-
-        .hero-background-logos:nth-of-type(9) {
-            animation-delay: 40s;
-            top: 90vh;
-            left: 40vw;
-        }
-
-        .hero-background-logos:nth-of-type(10) {
-            animation-delay: 45s;
-            top: 10vh;
-            left: 70vw;
+            left: 50vw;
         }
 
         @keyframes hero-logo-anim {
@@ -120,24 +176,24 @@
                 opacity: 0;
             }
 
-            15% {
+            /* 15% {
                 filter: blur(2px);
                 opacity: 1;
-            }
+            } */
 
             25% {
-                filter: blur(1px);
+                filter: blur(0px);
                 opacity: 1;
             }
 
-            35% {
+            /* 35% {
                 filter: blur(2px);
                 opacity: 1;
-            }
+            } */
 
             50% {
                 filter: blur(4px);
-                opacity: 0;
+                opacity: 1;
             }
 
             100% {
@@ -344,6 +400,15 @@
         <div class="hero-background-logos"></div>
         <div class="hero-background-logos"></div>
         <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
+        <div class="hero-background-logos"></div>
         <div class="text-wrap">
             <div class="text-wrap-2">
                 <div class="first-line">Where Data, Institutions, Traders & Ideas Intersect To</div>
@@ -370,7 +435,7 @@
     </div>
     <script>
         let videoBckg = document.getElementById("video01")
-        videoBckg.src = "Terminal_Loop_Comp_2.mp4"
+        videoBckg.src = "Terminal_Loop_Comp_4.mp4"
     </script>
 </body>
 
